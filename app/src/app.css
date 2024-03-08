@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Geist';
+	src: url('/GeistVariableVF.woff2') format('woff2');
+	font-display: fallback;
+}
+
+body,
+html {
+	font-family: 'Geist' !important;
+}
+
+p {
+	font-family: 'Geist';
+	text-wrap: balance;
+}
+
+h1,
+h2 {
+	line-height: 95%;
+	font-family: 'Geist';
+}
